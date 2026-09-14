@@ -44,7 +44,7 @@
 
 ## Weekly Insights
 
-- **F1**: Plateau confirmed - cease queries after week 13
+- **F1**: Plateau confirmed; no meaningful improvement expected through week 13
 - **F2**: Confirmed plateau at 0.75
 - **F3**: Very slow progress; accept as difficult function
 - **F4**: Stable; maintaining benefit
