@@ -100,7 +100,7 @@ Week 13 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Converged or locked functions**: F1, F2, F3, F4, F5, F6, F7, F8
 - **Still actively searching**: None
-- **Allocation logic**: Query budget stays concentrated on functions with visible headroom, while plateaued functions are used mainly to validate that earlier peaks are real and repeatable.
+- **Allocation logic**: All functions are in final reporting mode, so week 13 focuses on confirming incumbents and documenting the last improvement attempts rather than reallocating budget.
 
 ---
 
