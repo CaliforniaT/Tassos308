@@ -15,7 +15,7 @@
 - **Average Prediction Error**: 32.12%
 - **Technique Mix**: GP×6, SVM+GP×2
 
-This week continues the project-wide trajectory where low-dimensional functions stabilize early, F5 dominates once exploitation begins, and the highest-dimensional functions require the longest learning curve.
+Week 4 shows F5 as the clearest current opportunity, while F6 carries the largest modeling uncertainty and therefore demands the most cautious follow-up.
 
 ---
 
@@ -27,7 +27,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: GP with Matern+White kernel and UCB (Beta=5.0)
 - **Prediction vs Actual**: 6.204e-80 ± 5.676e-80 → 1.320e-79 (53.00% error)
 - **Interpretation**: Week 4 validated the incumbent without improving it; cumulative improvement from week 1 is 0
-- **Insight**: Validation repeats confirm no useful gradient is present. High-ucb exploration confirmed the function is effectively flat, so the strategy transitions into lock mode early.
+- **Insight**: Validation repeats confirm no useful gradient is present.
 
 ### Function 2 (2D - ML Likelihood)
 
@@ -35,7 +35,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
 - **Prediction vs Actual**: 0.7726 ± 0.1322 → 0.696 (11.00% error)
 - **Interpretation**: Week 4 improved the incumbent; cumulative improvement from week 1 is 0.424
-- **Insight**: Refinement continues with smaller but reliable gains. After baseline mapping, ei consistently refines the same promising ridge.
+- **Insight**: Refinement continues with smaller but reliable gains.
 
 ### Function 3 (3D - Drug Discovery)
 
@@ -43,7 +43,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: GP with Matern kernel and UCB (Beta=5.0)
 - **Prediction vs Actual**: -0.05 ± 0.0316 → -0.082 (39.00% error)
 - **Interpretation**: Week 4 improved the incumbent; cumulative improvement from week 1 is 0.017
-- **Insight**: Progress remains incremental on this multimodal surface. Continued exploration is necessary because every gain comes from shaving away negative loss rather than finding a strong positive basin.
+- **Insight**: Progress remains incremental on this multimodal surface.
 
 ### Function 4 (4D - Warehouse Placement)
 
@@ -51,7 +51,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: SVM+GP with Matern+White kernel and UCB (Beta=3.0)
 - **Prediction vs Actual**: -0.9912 ± 0.2373 → -0.698 (42.00% error)
 - **Interpretation**: Week 4 improved the incumbent; cumulative improvement from week 1 is 0.074
-- **Insight**: SVM filtering removes clearly bad regions and boosts consistency. The main improvement comes from using svm filtering to avoid obviously poor placements while still preserving a modest exploration budget.
+- **Insight**: SVM filtering removes clearly bad regions and boosts consistency.
 
 ### Function 5 (4D - Chemical Yield)
 
@@ -59,7 +59,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
 - **Prediction vs Actual**: 6851.67 ± 1090.37 → 7367.39 (7.00% error)
 - **Interpretation**: Week 4 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
-- **Insight**: Follow-up probes show the peak is real and repeatable. A week-2 switch into ei pays off immediately and the week-3 peak becomes the global anchor for the rest of the project.
+- **Insight**: Follow-up probes show the peak is real and repeatable.
 
 ### Function 6 (5D - Recipe Optimization)
 
@@ -67,7 +67,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: SVM+GP with Matern+White kernel and UCB (Beta=5.0)
 - **Prediction vs Actual**: -0.2982 ± 0.2804 → -0.71 (58.00% error)
 - **Interpretation**: Week 4 improved the incumbent; cumulative improvement from week 1 is 0.482
-- **Insight**: SVM filtering removes obviously poor recipes and sharpens results. The model needs both higher noise tolerance and candidate filtering to keep making small but reliable gains.
+- **Insight**: SVM filtering removes obviously poor recipes and sharpens results.
 
 ### Function 7 (6D - ML Hyperparameters)
 
@@ -75,7 +75,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: GP with Matern+White kernel and UCB (Beta=3.0)
 - **Prediction vs Actual**: 0.4914 ± 0.1954 → 0.592 (17.00% error)
 - **Interpretation**: Week 4 improved the incumbent; cumulative improvement from week 1 is 0.124
-- **Insight**: Improvement remains steady even as dimensionality bites. Moderate ucb keeps improving the incumbent until the landscape stabilizes around week 8.
+- **Insight**: Improvement remains steady even as dimensionality bites.
 
 ### Function 8 (8D - Advanced Hyperparameter Tuning)
 
@@ -83,16 +83,16 @@ This week continues the project-wide trajectory where low-dimensional functions 
 - **Technique**: GP with Matern kernel and UCB (Beta=1.5)
 - **Prediction vs Actual**: 2.24 ± 1.536 → 3.2 (30.00% error)
 - **Interpretation**: Week 4 improved the incumbent; cumulative improvement from week 1 is 3.194
-- **Insight**: The incumbent keeps increasing as the model gains data. Pure gp stabilizes the search after the weak week-1 ensemble, then a lightweight nn+gp blend helps squeeze out late-stage gains.
+- **Insight**: The incumbent keeps increasing as the model gains data.
 
 ---
 
 ## Cross-Function Patterns and Technique Effectiveness
 
-- **Phase pattern**: Weeks 1-3 emphasize exploration, weeks 4-7 use a more balanced policy, and weeks 8-13 increasingly lock onto incumbents. Week 4 fits that pattern through a balanced-oriented allocation.
-- **Technique effectiveness**: GP-EI remains the strongest exploitation tool whenever a credible incumbent exists (especially F5, then F2). GP-UCB is still the best general-purpose explorer, and SVM+GP produces slower but steadier gains on F4/F6 once enough data exists to filter candidates.
-- **Dimensionality effect**: 2D problems calibrate quickly, 4D-6D problems benefit from hybrid filtering, and the 8D search still pays a high uncertainty tax even after model improvements.
-- **Model quality trend**: Prediction intervals shrink over time, with the sharpest improvements on F2, F5, and F7 after exploitation begins.
+- **Phase pattern**: Week 4 is part of the balanced phase, so the allocation favors a mix of refinement and selective filtering.
+- **Technique effectiveness**: GP contributed the largest share of this week's non-negative gains (1.287 across 6 function(s)), while the remaining methods were used where their landscape assumptions fit best.
+- **Dimensionality effect**: Lower-dimensional functions remain easier to calibrate, while F8 still pays the highest uncertainty cost because of its 8D search space.
+- **Current model quality**: The most accurate model this week was F5 at 7.00% error, while F6 was the hardest to predict at 58.00% error.
 
 ---
 

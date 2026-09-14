@@ -15,7 +15,7 @@
 - **Average Prediction Error**: 55.25%
 - **Technique Mix**: GP×7, NN+GP×1
 
-This week continues the project-wide trajectory where low-dimensional functions stabilize early, F5 dominates once exploitation begins, and the highest-dimensional functions require the longest learning curve.
+Week 1 shows F5 as the clearest current opportunity, while F8 carries the largest modeling uncertainty and therefore demands the most cautious follow-up.
 
 ---
 
@@ -89,10 +89,10 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 ## Cross-Function Patterns and Technique Effectiveness
 
-- **Phase pattern**: Weeks 1-3 emphasize exploration, weeks 4-7 use a more balanced policy, and weeks 8-13 increasingly lock onto incumbents. Week 1 fits that pattern through an exploration-oriented allocation.
-- **Technique effectiveness**: GP-EI remains the strongest exploitation tool whenever a credible incumbent exists (especially F5, then F2). GP-UCB is still the best general-purpose explorer, and SVM+GP produces slower but steadier gains on F4/F6 once enough data exists to filter candidates.
-- **Dimensionality effect**: 2D problems calibrate quickly, 4D-6D problems benefit from hybrid filtering, and the 8D search still pays a high uncertainty tax even after model improvements.
-- **Model quality trend**: Prediction intervals shrink over time, with the sharpest improvements on F2, F5, and F7 after exploitation begins.
+- **Phase pattern**: Week 1 is part of the exploration phase, so the allocation favors information-gathering and wider spacing.
+- **Technique effectiveness**: GP contributed the largest share of this week's non-negative gains (2596.98 across 7 function(s)), while the remaining methods were used where their landscape assumptions fit best.
+- **Dimensionality effect**: Lower-dimensional functions remain easier to calibrate, while F8 still pays the highest uncertainty cost because of its 8D search space.
+- **Current model quality**: The most accurate model this week was F5 at 8.00% error, while F8 was the hardest to predict at 99.00% error.
 
 ---
 
@@ -108,12 +108,12 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 | Function | Change | Old | New | Rationale |
 |----------|--------|-----|-----|-----------|
-| F1 | Beta | 3.0 | 5.0 | Raised beta to increase exploration pressure after weak early gains. |
-| F2 | Acquisition | UCB | EI | Acquisition changed from UCB to EI to match the phase transition. |
-| F3 | Beta | 3.0 | 5.0 | Raised beta to increase exploration pressure after weak early gains. |
-| F5 | Acquisition | UCB | EI | Acquisition changed from UCB to EI to match the phase transition. |
-| F6 | Beta | 3.0 | 5.0 | Raised beta to increase exploration pressure after weak early gains. |
-| F7 | Beta | 1.0 | 3.0 | Raised beta to increase exploration pressure after weak early gains. |
+| F1 | Beta | 3.0 | 5.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain. |
+| F2 | Acquisition | UCB | EI | Acquisition changed from UCB to EI to better match the latest search objective. |
+| F3 | Beta | 3.0 | 5.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain. |
+| F5 | Acquisition | UCB | EI | Acquisition changed from UCB to EI to better match the latest search objective. |
+| F6 | Beta | 3.0 | 5.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain. |
+| F7 | Beta | 1.0 | 3.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain. |
 | F8 | Technique | NN+GP | GP | Shifted to GP to better match the observed landscape. |
 
 ---
