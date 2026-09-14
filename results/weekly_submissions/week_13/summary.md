@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7359.63
 - **Total Weekly Gain**: 0.2305
 - **Average Prediction Error**: 19.88%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -33,7 +33,7 @@ Week 13 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.867574, 0.959468]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.7777 ± 0.0823 → 0.7478 (4.00% error)
+- **Prediction vs Actual**: 0.7783 ± 0.0823 → 0.7484 (4.00% error)
 - **Interpretation**: Week 13 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: Final week preserves the 0.75 solution without regression.
 
@@ -57,7 +57,7 @@ Week 13 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.355135, 0.820919, 0.797716, 0.867342]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 7146.37 ± 1031.43 → 7367.39 (3.00% error)
+- **Prediction vs Actual**: 7138.84 ± 1030.35 → 7359.63 (3.00% error)
 - **Interpretation**: Week 13 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: Final week preserves the week-3 peak without degradation.
 
@@ -73,7 +73,7 @@ Week 13 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.739395, 0.603511, 0.693016, 0.509855, 0.249339, 0.554076]
 - **Technique**: GP with Matern+White kernel and UCB (Beta=3.0)
-- **Prediction vs Actual**: 0.6329 ± 0.1169 → 0.6879 (8.00% error)
+- **Prediction vs Actual**: 0.6333 ± 0.117 → 0.6884 (8.00% error)
 - **Interpretation**: Week 13 validated the incumbent without improving it; cumulative improvement from week 1 is 0.222
 - **Insight**: Final week confirms a stable 0.69 best value.
 

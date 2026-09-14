@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7360.12
 - **Total Weekly Gain**: 0.761
 - **Average Prediction Error**: 23.62%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -33,7 +33,7 @@ Week 10 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.863744, 0.954321]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.7926 ± 0.0942 → 0.7478 (6.00% error)
+- **Prediction vs Actual**: 0.7934 ± 0.0943 → 0.7485 (6.00% error)
 - **Interpretation**: Week 10 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: Marginal value of further exploration is negligible.
 
@@ -57,7 +57,7 @@ Week 10 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.349942, 0.819641, 0.791241, 0.871486]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 7072.69 ± 1031.43 → 7367.39 (4.00% error)
+- **Prediction vs Actual**: 7065.72 ± 1030.42 → 7360.12 (4.00% error)
 - **Interpretation**: Week 10 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: Another validation run confirms stable high yield.
 
@@ -73,7 +73,7 @@ Week 10 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.740889, 0.601503, 0.698554, 0.514322, 0.248540, 0.549428]
 - **Technique**: GP with Matern+White kernel and UCB (Beta=3.0)
-- **Prediction vs Actual**: 0.6123 ± 0.139 → 0.6879 (11.00% error)
+- **Prediction vs Actual**: 0.6122 ± 0.139 → 0.6879 (11.00% error)
 - **Interpretation**: Week 10 validated the incumbent without improving it; cumulative improvement from week 1 is 0.222
 - **Insight**: The posterior mean is stable across nearby hyperparameter settings.
 

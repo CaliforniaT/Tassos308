@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7358.41
 - **Total Weekly Gain**: 0.361
 - **Average Prediction Error**: 22.38%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -33,7 +33,7 @@ Week 11 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.865764, 0.961414]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.7851 ± 0.0912 → 0.7478 (5.00% error)
+- **Prediction vs Actual**: 0.7846 ± 0.0912 → 0.7472 (5.00% error)
 - **Interpretation**: Week 11 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: The posterior mean and reality are now tightly aligned.
 
@@ -57,7 +57,7 @@ Week 11 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.349666, 0.819743, 0.792373, 0.872022]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 7072.69 ± 1031.43 → 7367.39 (4.00% error)
+- **Prediction vs Actual**: 7064.07 ± 1030.18 → 7358.41 (4.00% error)
 - **Interpretation**: Week 11 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: The best F5 settings remain untouched.
 
@@ -73,7 +73,7 @@ Week 11 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.742610, 0.603390, 0.690088, 0.512750, 0.245374, 0.549943]
 - **Technique**: GP with Matern+White kernel and UCB (Beta=3.0)
-- **Prediction vs Actual**: 0.6191 ± 0.1335 → 0.6879 (10.00% error)
+- **Prediction vs Actual**: 0.6197 ± 0.1336 → 0.6886 (10.00% error)
 - **Interpretation**: Week 11 validated the incumbent without improving it; cumulative improvement from week 1 is 0.222
 - **Insight**: No late-stage challenger outperforms the incumbent.
 

@@ -9,9 +9,9 @@
 ## Executive Summary
 
 - **Total Queries Submitted**: 8 (1 per function)
-- **New Peak Discoveries**: 7
+- **New Peak Discoveries**: 0
 - **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 2596.24
-- **Total Weekly Gain**: 2596.99
+- **Total Weekly Gain**: 0
 - **Average Prediction Error**: 55.25%
 - **Technique Mix**: GP×7, NN+GP×1
 
@@ -90,7 +90,7 @@ Week 1 shows F5 as the clearest current opportunity, while F8 carries the larges
 ## Cross-Function Patterns and Technique Effectiveness
 
 - **Phase pattern**: Week 1 is part of the exploration phase, so the allocation favors information-gathering and wider spacing.
-- **Technique effectiveness**: GP contributed the largest share of this week's non-negative gains (2596.98 across 7 function(s)), while the remaining methods were used where their landscape assumptions fit best.
+- **Technique effectiveness**: No method recorded an incumbent gain in week 1 because all eight runs were baseline-establishment queries; the main takeaway is that the standard GP configurations calibrated faster than the opening ensemble on F8.
 - **Dimensionality effect**: Lower-dimensional functions remain easier to calibrate, while F8 still pays the highest uncertainty cost because of its 8D search space.
 - **Current model quality**: The most accurate model this week was F5 at 8.00% error, while F8 was the hardest to predict at 99.00% error.
 

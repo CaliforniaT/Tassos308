@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7354.66
 - **Total Weekly Gain**: 0.762
 - **Average Prediction Error**: 25.00%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -33,7 +33,7 @@ Week 9 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.862960, 0.955355]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.7926 ± 0.0972 → 0.7478 (6.00% error)
+- **Prediction vs Actual**: 0.7917 ± 0.0971 → 0.7469 (6.00% error)
 - **Interpretation**: Week 9 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: Late exploitation supports a stable convergence claim.
 
@@ -57,7 +57,7 @@ Week 9 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.354057, 0.823519, 0.794210, 0.874750]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 6999.02 ± 1031.43 → 7367.39 (5.00% error)
+- **Prediction vs Actual**: 6986.93 ± 1029.65 → 7354.66 (5.00% error)
 - **Interpretation**: Week 9 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: Exploration would only add risk at this point.
 
@@ -73,7 +73,7 @@ Week 9 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.740001, 0.602306, 0.692659, 0.513179, 0.247388, 0.553344]
 - **Technique**: GP with Matern+White kernel and UCB (Beta=3.0)
-- **Prediction vs Actual**: 0.6054 ± 0.1445 → 0.6879 (12.00% error)
+- **Prediction vs Actual**: 0.6041 ± 0.1442 → 0.6865 (12.00% error)
 - **Interpretation**: Week 9 validated the incumbent without improving it; cumulative improvement from week 1 is 0.222
 - **Insight**: Repeated confirmation suggests the plateau is real.
 

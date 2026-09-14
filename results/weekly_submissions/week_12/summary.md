@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7362.87
 - **Total Weekly Gain**: 0.2605
 - **Average Prediction Error**: 21.12%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -33,7 +33,7 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.859688, 0.956236]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.7851 ± 0.0882 → 0.7478 (5.00% error)
+- **Prediction vs Actual**: 0.7866 ± 0.0884 → 0.7491 (5.00% error)
 - **Interpretation**: Week 12 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: Only tiny confirmation steps remain justified.
 
@@ -57,7 +57,7 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.350215, 0.821925, 0.793550, 0.869913]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 7146.37 ± 1031.43 → 7367.39 (3.00% error)
+- **Prediction vs Actual**: 7141.98 ± 1030.80 → 7362.87 (3.00% error)
 - **Interpretation**: Week 12 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: All evidence supports a strict exploitation lock.
 
@@ -73,7 +73,7 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 - **Submission**: [0.745500, 0.606615, 0.691131, 0.512706, 0.252877, 0.553638]
 - **Technique**: GP with Matern+White kernel and UCB (Beta=3.0)
-- **Prediction vs Actual**: 0.626 ± 0.128 → 0.6879 (9.00% error)
+- **Prediction vs Actual**: 0.6271 ± 0.1282 → 0.6891 (9.00% error)
 - **Interpretation**: Week 12 validated the incumbent without improving it; cumulative improvement from week 1 is 0.222
 - **Insight**: Convergence lock remains justified.
 

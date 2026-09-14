@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 5
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7345.29
 - **Total Weekly Gain**: 0.984
 - **Average Prediction Error**: 26.50%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -57,7 +57,7 @@ Week 8 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.355372, 0.821144, 0.793298, 0.871241]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 6999.02 ± 1031.43 → 7367.39 (5.00% error)
+- **Prediction vs Actual**: 6978.03 ± 1028.34 → 7345.29 (5.00% error)
 - **Interpretation**: Week 8 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: The posterior variance is near zero around the winning recipe.
 

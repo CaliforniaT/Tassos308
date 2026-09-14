@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 5
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7338.12
 - **Total Weekly Gain**: 1.387
 - **Average Prediction Error**: 29.62%
 - **Technique Mix**: GP×6, SVM+GP×2
@@ -33,7 +33,7 @@ Week 6 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.871663, 0.946012]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.815 ± 0.1122 → 0.7478 (9.00% error)
+- **Prediction vs Actual**: 0.811 ± 0.1116 → 0.744 (9.00% error)
 - **Interpretation**: Week 6 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: Repeat exploitation confirms the optimum neighbourhood.
 
@@ -57,7 +57,7 @@ Week 6 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.348422, 0.828079, 0.794610, 0.876158]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 6851.67 ± 1060.90 → 7367.39 (7.00% error)
+- **Prediction vs Actual**: 6824.45 ± 1056.69 → 7338.12 (7.00% error)
 - **Interpretation**: Week 6 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: No alternative candidate clears the incumbent.
 

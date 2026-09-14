@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 5
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7351.04
 - **Total Weekly Gain**: 1.185
 - **Average Prediction Error**: 27.88%
 - **Technique Mix**: GP×6, SVM+GP×2
@@ -33,7 +33,7 @@ Week 7 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.856252, 0.945352]
 - **Technique**: GP with RQ kernel and EI (Xi=0.01)
-- **Prediction vs Actual**: 0.8076 ± 0.1062 → 0.7478 (8.00% error)
+- **Prediction vs Actual**: 0.8057 ± 0.1059 → 0.746 (8.00% error)
 - **Interpretation**: Week 7 validated the incumbent without improving it; cumulative improvement from week 1 is 0.478
 - **Insight**: No nearby candidate beats the incumbent.
 
@@ -57,7 +57,7 @@ Week 7 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 - **Submission**: [0.352350, 0.824579, 0.790645, 0.868203]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 6925.35 ± 1060.90 → 7367.39 (6.00% error)
+- **Prediction vs Actual**: 6909.98 ± 1058.55 → 7351.04 (6.00% error)
 - **Interpretation**: Week 7 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: Maintaining the incumbent is now the optimal decision.
 
