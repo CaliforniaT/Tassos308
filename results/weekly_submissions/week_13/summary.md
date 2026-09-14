@@ -59,7 +59,7 @@ Week 13 shows F5 as the clearest current opportunity, while F6 carries the large
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
 - **Prediction vs Actual**: 7138.84 ± 1030.35 → 7359.63 (3.00% error)
 - **Interpretation**: Week 13 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
-- **Insight**: Final week preserves the week-3 peak without degradation.
+- **Insight**: Final week stays just below the week-3 project peak while confirming the same optimum basin.
 
 ### Function 6 (5D - Recipe Optimization)
 
