@@ -108,10 +108,10 @@ Week 7 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F4 | Strategy mode | SVM_Stable | Balanced | Operational mode changed from SVM_Stable to Balanced based on the latest evidence.
-F6 | Strategy mode | SVM_Stable | Balanced | Operational mode changed from SVM_Stable to Balanced based on the latest evidence.
-F7 | Strategy mode | Improving | Plateau | Operational mode changed from Improving to Plateau based on the latest evidence.
-F8 | Technique | GP + Matern | NN+GP + Mixed | Shifted to NN+GP to better match the observed landscape.
+F4 | Strategy mode | SVM_Stable | Balanced | Week 8 plan: operational mode changed from SVM_Stable to Balanced based on the latest evidence.
+F6 | Strategy mode | SVM_Stable | Balanced | Week 8 plan: operational mode changed from SVM_Stable to Balanced based on the latest evidence.
+F7 | Strategy mode | Improving | Plateau | Week 8 plan: operational mode changed from Improving to Plateau based on the latest evidence.
+F8 | Technique | GP + Matern | NN+GP + Mixed | Week 8 plan: shifted to NN+GP to better match the observed landscape.
 
 ---
 

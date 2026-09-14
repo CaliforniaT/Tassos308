@@ -108,9 +108,9 @@ Week 5 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F2 | Strategy mode | Plateau | Locked | Operational mode changed from Plateau to Locked based on the latest evidence.
-F3 | Strategy mode | Exploration | Slow | Operational mode changed from Exploration to Slow based on the latest evidence.
-F8 | Strategy mode | Exploration | Steady | Operational mode changed from Exploration to Steady based on the latest evidence.
+F2 | Strategy mode | Plateau | Locked | Week 6 plan: operational mode changed from Plateau to Locked based on the latest evidence.
+F3 | Strategy mode | Exploration | Slow | Week 6 plan: operational mode changed from Exploration to Slow based on the latest evidence.
+F8 | Strategy mode | Exploration | Steady | Week 6 plan: operational mode changed from Exploration to Steady based on the latest evidence.
 
 ---
 

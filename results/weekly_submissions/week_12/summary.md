@@ -108,14 +108,14 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F1 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence.
-F2 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence.
-F3 | Strategy mode | Refinement | Final | Operational mode changed from Refinement to Final based on the latest evidence.
-F4 | Strategy mode | Refinement | Final | Operational mode changed from Refinement to Final based on the latest evidence.
-F5 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence.
-F6 | Strategy mode | Refinement | Final | Operational mode changed from Refinement to Final based on the latest evidence.
-F7 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence.
-F8 | Strategy mode | Ensemble | Final | Operational mode changed from Ensemble to Final based on the latest evidence.
+F1 | Strategy mode | Locked | Final | Week 13 plan: operational mode changed from Locked to Final based on the latest evidence.
+F2 | Strategy mode | Locked | Final | Week 13 plan: operational mode changed from Locked to Final based on the latest evidence.
+F3 | Strategy mode | Refinement | Final | Week 13 plan: operational mode changed from Refinement to Final based on the latest evidence.
+F4 | Strategy mode | Refinement | Final | Week 13 plan: operational mode changed from Refinement to Final based on the latest evidence.
+F5 | Strategy mode | Locked | Final | Week 13 plan: operational mode changed from Locked to Final based on the latest evidence.
+F6 | Strategy mode | Refinement | Final | Week 13 plan: operational mode changed from Refinement to Final based on the latest evidence.
+F7 | Strategy mode | Plateau | Final | Week 13 plan: operational mode changed from Plateau to Final based on the latest evidence.
+F8 | Strategy mode | Ensemble | Final | Week 13 plan: operational mode changed from Ensemble to Final based on the latest evidence.
 
 ---
 

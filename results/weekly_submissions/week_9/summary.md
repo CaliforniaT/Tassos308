@@ -108,9 +108,9 @@ Week 9 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F3 | Strategy mode | Slow | Refinement | Operational mode changed from Slow to Refinement based on the latest evidence.
-F4 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence.
-F6 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence.
+F3 | Strategy mode | Slow | Refinement | Week 10 plan: operational mode changed from Slow to Refinement based on the latest evidence.
+F4 | Strategy mode | Balanced | Refinement | Week 10 plan: operational mode changed from Balanced to Refinement based on the latest evidence.
+F6 | Strategy mode | Balanced | Refinement | Week 10 plan: operational mode changed from Balanced to Refinement based on the latest evidence.
 
 ---
 

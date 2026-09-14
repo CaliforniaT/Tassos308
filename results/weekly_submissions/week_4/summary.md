@@ -108,11 +108,11 @@ Week 4 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F2 | Strategy mode | Exploitation | Plateau | Operational mode changed from Exploitation to Plateau based on the latest evidence.
-F4 | Strategy mode | SVM_Active | SVM_Stable | Operational mode changed from SVM_Active to SVM_Stable based on the latest evidence.
-F5 | Strategy mode | Plateau | Locked | Operational mode changed from Plateau to Locked based on the latest evidence.
-F6 | Strategy mode | SVM_Active | SVM_Stable | Operational mode changed from SVM_Active to SVM_Stable based on the latest evidence.
-F7 | Strategy mode | Balanced | Improving | Operational mode changed from Balanced to Improving based on the latest evidence.
+F2 | Strategy mode | Exploitation | Plateau | Week 5 plan: operational mode changed from Exploitation to Plateau based on the latest evidence.
+F4 | Strategy mode | SVM_Active | SVM_Stable | Week 5 plan: operational mode changed from SVM_Active to SVM_Stable based on the latest evidence.
+F5 | Strategy mode | Plateau | Locked | Week 5 plan: operational mode changed from Plateau to Locked based on the latest evidence.
+F6 | Strategy mode | SVM_Active | SVM_Stable | Week 5 plan: operational mode changed from SVM_Active to SVM_Stable based on the latest evidence.
+F7 | Strategy mode | Balanced | Improving | Week 5 plan: operational mode changed from Balanced to Improving based on the latest evidence.
 
 ---
 

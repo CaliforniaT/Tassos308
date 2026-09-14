@@ -108,7 +108,7 @@ Week 6 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F1 | Strategy mode | Converged | Locked | Operational mode changed from Converged to Locked based on the latest evidence.
+F1 | Strategy mode | Converged | Locked | Week 7 plan: operational mode changed from Converged to Locked based on the latest evidence.
 
 ---
 

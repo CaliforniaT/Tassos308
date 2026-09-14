@@ -108,13 +108,13 @@ Week 1 shows F5 as the clearest current opportunity, while F8 carries the larges
 
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
-F1 | Beta | Beta=3.0 | Beta=5.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
-F2 | Acquisition / parameter | UCB Beta=3.0 | EI Xi=0.01 | Acquisition changed from UCB to EI to better match the latest search objective.
-F3 | Beta | Beta=3.0 | Beta=5.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
-F5 | Acquisition / parameter | UCB Beta=1.5 | EI Xi=0.01 | Acquisition changed from UCB to EI to better match the latest search objective.
-F6 | Beta | Beta=3.0 | Beta=5.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
-F7 | Beta | Beta=1.0 | Beta=3.0 | Raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
-F8 | Technique | NN+GP + Mixed | GP + Matern | Shifted to GP to better match the observed landscape.
+F1 | Beta | Beta=3.0 | Beta=5.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
+F2 | Acquisition / parameter | UCB Beta=3.0 | EI Xi=0.01 | Week 2 plan: acquisition changed from UCB to EI to better match the latest search objective.
+F3 | Beta | Beta=3.0 | Beta=5.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
+F5 | Acquisition / parameter | UCB Beta=1.5 | EI Xi=0.01 | Week 2 plan: acquisition changed from UCB to EI to better match the latest search objective.
+F6 | Beta | Beta=3.0 | Beta=5.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
+F7 | Beta | Beta=1.0 | Beta=3.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
+F8 | Technique | NN+GP + Mixed | GP + Matern | Week 2 plan: shifted to GP to better match the observed landscape.
 
 ---
 
