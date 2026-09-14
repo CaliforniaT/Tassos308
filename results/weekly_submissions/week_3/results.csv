@@ -2,7 +2,7 @@ Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_
 3,F1,1.32e-79,0,1.02e-80,3,48,85,Flat function confirmed converged; accept ceiling
 3,F2,0.642,0.097,0.049,3,88,30,Continued EI exploitation; +18% weekly gain
 3,F3,-0.084,0.003,0.0002,3,62,70,Minor gains; function very difficult
-3,F4,-0.728,0.037,0.003,3,52,60,SVM filtering activated this week; preparing for week 4+
+3,F4,-0.728,0.037,0.003,3,52,60,SVM filtering prepared in week 3; activated from week 4 onward
 3,F5,7367.39,3881.29,2455.8,3,94,5,⭐⭐⭐ BREAKTHROUGH - Found major peak (+111% improvement!)
 3,F6,-0.752,0.06,0.0046,3,35,70,Steady progress; noise handling improving
 3,F7,0.561,0.04,0.0043,3,82,45,Consistent balanced exploration; on track

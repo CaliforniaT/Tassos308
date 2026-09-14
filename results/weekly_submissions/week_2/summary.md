@@ -18,7 +18,7 @@
 | F2 | GP | EI Xi=0.01 | 0.545 | 0.273 | Switching |
 | F3 | GP | UCB Beta=5.0 | -0.087 | 0.012 | Exploration |
 | F4 | GP | UCB Beta=3.0 | -0.765 | 0.007 | Exploration |
-| F5 | GP | UCB Beta=1.0 | 3486.10 | 889.86 | Exploitation |
+| F5 | GP | RQ + UCB Beta=1.0 | 3486.10 | 889.86 | Exploitation |
 | F6 | GP | UCB Beta=5.0 | -0.812 | 0.38 | Exploration |
 | F7 | GP | UCB Beta=3.0 | 0.521 | 0.053 | Balanced |
 | F8 | GP | UCB Beta=1.5 | 0.47 | 0.464 | Recovery |

@@ -18,7 +18,7 @@
 | F5 | GP | EI Xi=0.001 | 7367.39 | 0 | Locked |
 | F6 | SVM+GP | UCB Beta=5.0 | -0.56 | 0.03 | SVM_Stable |
 | F7 | GP | UCB Beta=3.0 | 0.69 | 0 | Plateau |
-| F8 | NN+GP | UCB Beta=1.5 | 8.5 | 0.7 | Ensemble |
+| F8 | NN+GP | UCB Beta=1.5 | 8.5 | 0.70 | Ensemble |
 
 ## Notes
 - Query configuration details are in `queries.csv`.
