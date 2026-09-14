@@ -1,0 +1,9 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+6,F1,1.32e-79,0.0,1.02e-80,6,45.0,70.0,1,Converged,GP,Matern+White,UCB,Beta,5.0,Plateau confirmed - cease queries after week 13
+6,F2,0.75,0.0,0.058,6,90.0,10.0,1,Plateau,GP,RQ,EI,Xi,0.01,Confirmed plateau at 0.75
+6,F3,-0.078,0.002,0.00013,6,64.0,55.0,1,Slow,GP,Matern,UCB,Beta,5.0,Very slow progress; accept as difficult function
+6,F4,-0.638,0.03,0.0024,6,60.0,40.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,3.0,Stable; maintaining benefit
+6,F5,7367.39,0.0,2455.8,6,91.0,0.0,1,Locked,GP,RQ,EI,Xi,0.001,Firmly locked at peak
+6,F6,-0.65,0.03,0.0025,6,45.0,50.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,5.0,Stable; consistent refinement
+6,F7,0.645,0.025,0.0049,6,85.0,30.0,1,Improving,GP,Matern+White,UCB,Beta,3.0,Steady improvement; maintaining strategy
+6,F8,5.8,1.3,0.446,6,74.0,60.0,1,Steady,GP,Matern,UCB,Beta,1.5,Steady progress; 8D optimization slow but real

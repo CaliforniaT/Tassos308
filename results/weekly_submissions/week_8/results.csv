@@ -1,0 +1,8 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+8,F2,0.75,0.0,0.058,8,90.0,3.0,1,Plateau,GP,RQ,EI,Xi,0.01,Confirmed plateau
+8,F3,-0.074,0.002,9e-05,8,66.0,45.0,1,Slow,GP,Matern,UCB,Beta,5.0,Minimal gain; function near ceiling
+8,F4,-0.578,0.03,0.0028,8,62.0,30.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,3.0,Stable refinement
+8,F5,7367.39,0.0,2455.8,8,89.0,0.0,1,Locked,GP,RQ,EI,Xi,0.001,Peak maintained
+8,F6,-0.59,0.03,0.0029,8,47.0,40.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,5.0,Stable; consistent refinement
+8,F7,0.69,0.022,0.00953,8,87.0,20.0,1,Plateau,GP,Matern+White,UCB,Beta,3.0,Reaching plateau; strategy effective
+8,F8,7.8,0.9,0.6,8,75.0,50.0,1,Ensemble,NN+GP,Mixed,UCB,Beta,1.5,Added NN; ensemble beginning to help

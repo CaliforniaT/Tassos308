@@ -1,0 +1,9 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+4,F1,1.32e-79,0.0,1.02e-80,4,47.0,80.0,1,Converged,GP,Matern+White,UCB,Beta,5.0,No improvement - function ceiling confirmed
+4,F2,0.696,0.054,0.053,4,89.0,20.0,1,Exploitation,GP,RQ,EI,Xi,0.01,Continuing EI; steady refinement; +8% weekly
+4,F3,-0.082,0.002,0.0002,4,61.0,65.0,1,Exploration,GP,Matern,UCB,Beta,5.0,Very slow progress; difficult function
+4,F4,-0.698,0.03,0.002,4,58.0,50.0,1,SVM_Active,SVM+GP,Matern+White,UCB,Beta,3.0,SVM filtering active; +1.2% improvement vs. week 3
+4,F5,7367.39,0.0,2455.8,4,93.0,2.0,1,Plateau,GP,RQ,EI,Xi,0.001,Converged at peak; maintain current strategy
+4,F6,-0.71,0.042,0.0032,4,42.0,60.0,1,SVM_Active,SVM+GP,Matern+White,UCB,Beta,5.0,SVM filtering active; +0.9% net benefit vs. pure GP
+4,F7,0.592,0.031,0.0045,4,83.0,40.0,1,Balanced,GP,Matern+White,UCB,Beta,3.0,Steady improvement; consistent strategy
+4,F8,3.2,1.2,0.246,4,70.0,70.0,1,Exploration,GP,Matern,UCB,Beta,1.5,Improving; high-D still challenging

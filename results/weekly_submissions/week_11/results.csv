@@ -1,0 +1,5 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+11,F4,-0.488,0.03,0.00354,11,65.0,15.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,3.0,Stable refinement
+11,F5,7367.39,0.0,2455.8,11,86.0,0.0,1,Locked,GP,RQ,EI,Xi,0.001,Peak maintained
+11,F6,-0.5,0.03,0.00345,11,50.0,25.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,5.0,Stable; marginal gain
+11,F8,9.5,0.3,0.731,11,77.0,35.0,1,Ensemble,NN+GP,Mixed,UCB,Beta,1.5,Ensemble plateauing; slower gains

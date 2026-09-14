@@ -1,0 +1,9 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+1,F1,1.32e-79,0.0,1.02e-80,1,45.0,85.0,1,Exploration,GP,Matern+White,UCB,Beta,3.0,Extremely flat landscape - baseline established
+1,F2,0.272,0.272,0.021,1,52.0,100.0,1,Exploration,GP,RQ,UCB,Beta,3.0,Good prediction accuracy (9% error) - foundation set
+1,F3,-0.099,-0.099,-0.007,1,51.0,100.0,1,Exploration,GP,Matern,UCB,Beta,3.0,Negative outputs - multimodal landscape detected
+1,F4,-0.772,-0.772,-0.059,1,31.0,100.0,1,Exploration,GP,Matern+White,UCB,Beta,3.0,Poor prediction (69% error) - 4D curse evident
+1,F5,2596.24,2596.24,199.7,1,92.0,100.0,1,Exploration,GP,RQ,UCB,Beta,1.5,⭐ STAR PERFORMER - high output function identified
+1,F6,-1.192,-1.192,-0.092,1,3.0,100.0,1,Exploration,GP,Matern+White,UCB,Beta,3.0,Terrible prediction (297% error) - noisy landscape
+1,F7,0.468,0.468,0.036,1,83.0,100.0,1,Exploration,GP,Matern+White,UCB,Beta,1.0,Good prediction (17% error) - 6D manageable
+1,F8,0.006,0.006,0.00046,1,1.0,100.0,1,Exploration,Ensemble,Mixed,UCB,Beta,1.5,Ensemble failed (99.89% error) - 8D too complex

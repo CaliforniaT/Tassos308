@@ -1,0 +1,9 @@
+week,function,query_point,technique,kernel,acquisition_function,parameter_name,parameter_value,queries_made,status,submission_strategy,repository_source
+3,F1,,GP,Matern+White,UCB,Beta,5.0,1,Converged,Flat function confirmed converged; accept ceiling,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F2,,GP,RQ,EI,Xi,0.01,1,Exploitation,Continued EI exploitation; +18% weekly gain,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F3,,GP,Matern,UCB,Beta,5.0,1,Exploration,Minor gains; function very difficult,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F4,,GP,Matern+White,UCB,Beta,3.0,1,SVM_Prep,SVM filtering activated this week; preparing for week 4+,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F5,,GP,RQ,EI,Xi,0.001,1,🎯PEAK,⭐⭐⭐ BREAKTHROUGH - Found major peak (+111% improvement!),week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F6,,GP,Matern+White,UCB,Beta,5.0,1,Exploration,Steady progress; noise handling improving,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F7,,GP,Matern+White,UCB,Beta,3.0,1,Balanced,Consistent balanced exploration; on track,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+3,F8,,GP,Matern,UCB,Beta,1.5,1,Exploration,Still low output; high-D challenge confirmed,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)

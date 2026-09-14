@@ -1,0 +1,5 @@
+week,function,query_point,technique,kernel,acquisition_function,parameter_name,parameter_value,queries_made,status,submission_strategy,repository_source
+11,F4,,SVM+GP,Matern+White,UCB,Beta,3.0,1,SVM_Stable,Stable refinement,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+11,F5,,GP,RQ,EI,Xi,0.001,1,Locked,Peak maintained,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+11,F6,,SVM+GP,Matern+White,UCB,Beta,5.0,1,SVM_Stable,Stable; marginal gain,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+11,F8,,NN+GP,Mixed,UCB,Beta,1.5,1,Ensemble,Ensemble plateauing; slower gains,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)

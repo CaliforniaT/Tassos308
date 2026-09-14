@@ -1,0 +1,9 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+3,F1,1.32e-79,0.0,1.02e-80,3,48.0,85.0,1,Converged,GP,Matern+White,UCB,Beta,5.0,Flat function confirmed converged; accept ceiling
+3,F2,0.642,0.097,0.049,3,88.0,30.0,1,Exploitation,GP,RQ,EI,Xi,0.01,Continued EI exploitation; +18% weekly gain
+3,F3,-0.084,0.003,0.0002,3,62.0,70.0,1,Exploration,GP,Matern,UCB,Beta,5.0,Minor gains; function very difficult
+3,F4,-0.728,0.037,0.003,3,52.0,60.0,1,SVM_Prep,GP,Matern+White,UCB,Beta,3.0,SVM filtering activated this week; preparing for week 4+
+3,F5,7367.39,3881.29,2455.8,3,94.0,5.0,1,🎯PEAK,GP,RQ,EI,Xi,0.001,⭐⭐⭐ BREAKTHROUGH - Found major peak (+111% improvement!)
+3,F6,-0.752,0.06,0.0046,3,35.0,70.0,1,Exploration,GP,Matern+White,UCB,Beta,5.0,Steady progress; noise handling improving
+3,F7,0.561,0.04,0.0043,3,82.0,45.0,1,Balanced,GP,Matern+White,UCB,Beta,3.0,Consistent balanced exploration; on track
+3,F8,2.0,1.53,0.154,3,68.0,75.0,1,Exploration,GP,Matern,UCB,Beta,1.5,Still low output; high-D challenge confirmed

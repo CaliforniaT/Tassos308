@@ -1,0 +1,9 @@
+week,function,query_point,technique,kernel,acquisition_function,parameter_name,parameter_value,queries_made,status,submission_strategy,repository_source
+6,F1,,GP,Matern+White,UCB,Beta,5.0,1,Converged,Plateau confirmed - cease queries after week 13,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F2,,GP,RQ,EI,Xi,0.01,1,Plateau,Confirmed plateau at 0.75,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F3,,GP,Matern,UCB,Beta,5.0,1,Slow,Very slow progress; accept as difficult function,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F4,,SVM+GP,Matern+White,UCB,Beta,3.0,1,SVM_Stable,Stable; maintaining benefit,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F5,,GP,RQ,EI,Xi,0.001,1,Locked,Firmly locked at peak,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F6,,SVM+GP,Matern+White,UCB,Beta,5.0,1,SVM_Stable,Stable; consistent refinement,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F7,,GP,Matern+White,UCB,Beta,3.0,1,Improving,Steady improvement; maintaining strategy,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+6,F8,,GP,Matern,UCB,Beta,1.5,1,Steady,Steady progress; 8D optimization slow but real,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)

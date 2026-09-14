@@ -1,0 +1,9 @@
+week,function,query_point,technique,kernel,acquisition_function,parameter_name,parameter_value,queries_made,status,submission_strategy,repository_source
+2,F1,,GP,Matern+White,UCB,Beta,5.0,1,Plateau,Increased exploration doesn't help flat function,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F2,,GP,RQ,EI,Xi,0.01,1,Switching,SWITCH to EI - exploitation begins; +100% improvement,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F3,,GP,Matern,UCB,Beta,5.0,1,Exploration,Marginal improvement; multimodal confirmed,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F4,,GP,Matern+White,UCB,Beta,3.0,1,Exploration,Slight improvement; 4D still challenging,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F5,,GP,RQ,UCB,Beta,1.0,1,Exploitation,Light exploitation pays off; +34% weekly gain,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F6,,GP,Matern+White,UCB,Beta,5.0,1,Exploration,Improved from -1.192 to -0.812; noisy but progressing,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F7,,GP,Matern+White,UCB,Beta,3.0,1,Balanced,Steady improvement; balanced strategy working,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)
+2,F8,,GP,Matern,UCB,Beta,1.5,1,Recovery,Switched to simple GP; stabilized after week 1 failure,week_by_week_metrics.csv (query coordinates only preserved explicitly for week 1)

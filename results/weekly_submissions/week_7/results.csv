@@ -1,0 +1,8 @@
+week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
+7,F2,0.75,0.0,0.058,7,90.0,5.0,1,Plateau,GP,RQ,EI,Xi,0.01,Plateau confirmed
+7,F3,-0.076,0.002,0.00011,7,65.0,50.0,1,Slow,GP,Matern,UCB,Beta,5.0,Minimal progress; accept difficult nature
+7,F4,-0.608,0.03,0.0026,7,61.0,35.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,3.0,Stable; consistent refinement continues
+7,F5,7367.39,0.0,2455.8,7,90.0,0.0,1,Locked,GP,RQ,EI,Xi,0.001,Peak maintained
+7,F6,-0.62,0.03,0.0027,7,46.0,45.0,1,SVM_Stable,SVM+GP,Matern+White,UCB,Beta,5.0,Stable; continuing refinement
+7,F7,0.668,0.023,0.00953,7,86.0,25.0,1,Improving,GP,Matern+White,UCB,Beta,3.0,Continuing improvement; strategy working
+7,F8,6.9,1.1,0.53,7,75.0,55.0,1,Steady,GP,Matern,UCB,Beta,1.5,Steady progress; approaching 8D peak
