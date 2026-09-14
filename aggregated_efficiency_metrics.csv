@@ -1,0 +1,10 @@
+Function,Peak_Output,Query_Count,Weeks_Active,Queries_Per_Week,Output_Per_Query,Exploration_Rate,Strategy,Status
+1,1.32e-79,13,13,1.0,1.015e-80,High,Cautious exploration,Flat
+2,0.75,13,13,1.0,0.058,Medium,Moderate exploitation,Improving
+3,-0.09,13,13,1.0,-0.007,High,Adaptive modeling,Improving
+4,-3.59,13,13,1.0,-0.276,High,Filtered search,Low signal
+5,7367.39,13,13,1.0,566.723,Medium,Targeted exploitation,Peak
+6,-0.41,13,13,1.0,-0.032,High,Sparse signal,Low signal
+7,0.69,13,13,1.0,0.053,Medium,Adaptive switching,Moderate
+8,9.84,13,13,1.0,0.757,Medium,High-D exploration,Constrained
+Overall,7367.39,104,13,1.0,70.826,Medium,Mixed strategies,Active
