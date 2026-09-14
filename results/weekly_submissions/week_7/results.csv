@@ -5,4 +5,4 @@ Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_
 7,F5,7367.39,0,2455.8,7,90,0,Peak maintained
 7,F6,-0.62,0.03,0.0027,7,46,45,Stable; continuing refinement
 7,F7,0.668,0.023,0.00953,7,86,25,Continuing improvement; strategy working
-7,F8,6.9,1.1,0.53,7,75,55,Steady progress; approaching 8D peak
+7,F8,6.9,1.1,0.53,7,75,55,Steady GP progress before NN+GP switch in week 8

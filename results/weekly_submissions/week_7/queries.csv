@@ -5,4 +5,4 @@ Week,Function,Technique,Kernel,Acquisition_Function,Parameter_Name,Parameter_Val
 7,F5,GP,RQ,EI,Xi,0.001,1,Locked
 7,F6,SVM+GP,Matern+White,UCB,Beta,5.0,1,SVM_Stable
 7,F7,GP,Matern+White,UCB,Beta,3.0,1,Improving
-7,F8,GP,Matern,UCB,Beta,1.5,1,Steady
+7,F8,GP,Matern,UCB,Beta,1.5,1,Exploration
