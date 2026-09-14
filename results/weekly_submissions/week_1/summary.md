@@ -219,7 +219,7 @@
 
 **📋 Submission**
 - Query: `0.036105-0.349529-0.029123-0.509092-0.904733-0.455832-0.319773-0.505309`
-- Technique: Ensemble (GP + NN averaging)
+- Technique: NN+GP Ensemble (GP + NN averaging)
 - Acquisition: UCB (β=1.5)
 - Kernel: Mixed
 - Strategy: Random Exploration
@@ -255,7 +255,7 @@
 | F5 | GP | UCB β=1.5 | 2596.24 | 8% | ⭐⭐⭐⭐⭐ |
 | F6 | GP | UCB β=3.0 | -1.192 | 297% | ⚠️ Poor |
 | F7 | GP | UCB β=1.0 | 0.468 | 17% | ✅ Good |
-| F8 | Ensemble | UCB β=1.5 | 0.006 | 99.89% | ⚠️ Terrible |
+| F8 | NN+GP | UCB β=1.5 | 0.006 | 99.89% | ⚠️ Terrible |
 
 ### Best Performer
 - **Function 5** with output 2596.24 and 8% prediction error

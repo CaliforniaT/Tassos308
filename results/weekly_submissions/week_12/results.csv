@@ -1,0 +1,5 @@
+Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Key_Insight
+12,F4,-0.458,0.03,0.00366,12,66,10,Stable refinement
+12,F5,7367.39,0,2455.8,12,85,0,Peak maintained
+12,F6,-0.47,0.03,0.00357,12,51,20,Stable; marginal gain
+12,F8,9.7,0.2,0.746,12,78,30,Ensemble plateauing; minimal gain
