@@ -1,0 +1,84 @@
+Week,Function,Technique,Kernel,Acquisition_Function,Parameter_Name,Parameter_Value,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Queries_Made,Status,Key_Insight
+1,F1,GP,Matern+White,UCB,Beta,3.0,1.32e-79,0,1.02e-80,1,45,85,1,Exploration,Extremely flat landscape - baseline established
+1,F2,GP,RQ,UCB,Beta,3.0,0.272,0.272,0.021,1,52,100,1,Exploration,Good prediction accuracy (9% error) - foundation set
+1,F3,GP,Matern,UCB,Beta,3.0,-0.099,-0.099,-0.007,1,51,100,1,Exploration,Negative outputs - multimodal landscape detected
+1,F4,GP,Matern+White,UCB,Beta,3.0,-0.772,-0.772,-0.059,1,31,100,1,Exploration,Poor prediction (69% error) - 4D curse evident
+1,F5,GP,RQ,UCB,Beta,1.5,2596.24,2596.24,199.7,1,92,100,1,Exploration,⭐ STAR PERFORMER - high output function identified
+1,F6,GP,Matern+White,UCB,Beta,3.0,-1.192,-1.192,-0.092,1,3,100,1,Exploration,Terrible prediction (297% error) - noisy landscape
+1,F7,GP,Matern+White,UCB,Beta,1.0,0.468,0.468,0.036,1,83,100,1,Exploration,Good prediction (17% error) - 6D manageable
+1,F8,Ensemble,Mixed,UCB,Beta,1.5,0.006,0.006,0.00046,1,1,100,1,Exploration,Ensemble failed (99.89% error) - 8D too complex
+2,F1,GP,Matern+White,UCB,Beta,5.0,1.32e-79,0,1.02e-80,2,50,90,1,Plateau,Increased exploration doesn't help flat function
+2,F2,GP,RQ,EI,Xi,0.01,0.545,0.273,0.042,2,82,45,1,Switching,SWITCH to EI - exploitation begins; +100% improvement
+2,F3,GP,Matern,UCB,Beta,5.0,-0.087,0.012,0.001,2,58,75,1,Exploration,Marginal improvement; multimodal confirmed
+2,F4,GP,Matern+White,UCB,Beta,3.0,-0.765,0.007,0.0005,2,45,65,1,Exploration,Slight improvement; 4D still challenging
+2,F5,GP,RQ,UCB,Beta,1.0,3486.10,889.86,268.2,2,91,10,1,Exploitation,Light exploitation pays off; +34% weekly gain
+2,F6,GP,Matern+White,UCB,Beta,5.0,-0.812,0.38,0.029,2,28,75,1,Exploration,Improved from -1.192 to -0.812; noisy but progressing
+2,F7,GP,Matern+White,UCB,Beta,3.0,0.521,0.053,0.004,2,81,50,1,Balanced,Steady improvement; balanced strategy working
+2,F8,GP,Matern,UCB,Beta,1.5,0.47,0.464,0.036,2,62,80,1,Recovery,Switched to simple GP; stabilized after week 1 failure
+3,F1,GP,Matern+White,UCB,Beta,5.0,1.32e-79,0,1.02e-80,3,48,85,1,Converged,Flat function confirmed converged; accept ceiling
+3,F2,GP,RQ,EI,Xi,0.01,0.642,0.097,0.049,3,88,30,1,Exploitation,Continued EI exploitation; +18% weekly gain
+3,F3,GP,Matern,UCB,Beta,5.0,-0.084,0.003,0.0002,3,62,70,1,Exploration,Minor gains; function very difficult
+3,F4,GP,Matern+White,UCB,Beta,3.0,-0.728,0.037,0.003,3,52,60,1,SVM_Prep,SVM filtering activated this week; preparing for week 4+
+3,F5,GP,RQ,EI,Xi,0.001,7367.39,3881.29,2455.8,3,94,5,1,🎯PEAK,⭐⭐⭐ BREAKTHROUGH - Found major peak (+111% improvement!)
+3,F6,GP,Matern+White,UCB,Beta,5.0,-0.752,0.06,0.0046,3,35,70,1,Exploration,Steady progress; noise handling improving
+3,F7,GP,Matern+White,UCB,Beta,3.0,0.561,0.04,0.0043,3,82,45,1,Balanced,Consistent balanced exploration; on track
+3,F8,GP,Matern,UCB,Beta,1.5,2.0,1.53,0.154,3,68,75,1,Exploration,Still low output; high-D challenge confirmed
+4,F1,GP,Matern+White,UCB,Beta,5.0,1.32e-79,0,1.02e-80,4,47,80,1,Converged,No improvement - function ceiling confirmed
+4,F2,GP,RQ,EI,Xi,0.01,0.696,0.054,0.053,4,89,20,1,Exploitation,Continuing EI; steady refinement; +8% weekly
+4,F3,GP,Matern,UCB,Beta,5.0,-0.082,0.002,0.0002,4,61,65,1,Exploration,Very slow progress; difficult function
+4,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.698,0.03,0.002,4,58,50,1,SVM_Active,SVM filtering active; +1.2% improvement vs. week 3
+4,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,4,93,2,1,Plateau,Converged at peak; maintain current strategy
+4,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.71,0.042,0.0032,4,42,60,1,SVM_Active,SVM filtering active; +0.9% net benefit vs. pure GP
+4,F7,GP,Matern+White,UCB,Beta,3.0,0.592,0.031,0.0045,4,83,40,1,Balanced,Steady improvement; consistent strategy
+4,F8,GP,Matern,UCB,Beta,1.5,3.2,1.2,0.246,4,70,70,1,Exploration,Improving; high-D still challenging
+5,F1,GP,Matern+White,UCB,Beta,5.0,1.32e-79,0,1.02e-80,5,46,75,1,Converged,Confirmed plateau - stop evaluating
+5,F2,GP,RQ,EI,Xi,0.01,0.75,0.054,0.058,5,90,15,1,Plateau,Reached apparent peak; plateau confirmed
+5,F3,GP,Matern,UCB,Beta,5.0,-0.08,0.002,0.00016,5,63,60,1,Exploration,Minimal improvement; difficult function
+5,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.668,0.03,0.0022,5,59,45,1,SVM_Stable,SVM filtering consistent; stable performance
+5,F5,GP,RQ,EI,Xi=0.001,Xi,7367.39,0,2455.8,5,92,1,1,Locked,Peak locked in; maintaining efficiency
+5,F6,SVM+GP,Matern+White,UCB,Beta=5.0,Beta,5.0,-0.68,0.03,0.0023,5,44,55,1,SVM_Stable,SVM stable; consistent +0.9% benefit
+5,F7,GP,Matern+White,UCB,Beta,3.0,0.62,0.028,0.0048,5,84,35,1,Improving,Slight improvement; continuing balanced approach
+5,F8,GP,Matern,UCB,Beta,1.5,4.5,1.3,0.346,5,72,65,1,Exploration,Steady progress; requires patience for high-D
+6,F1,GP,Matern+White,UCB,Beta,5.0,1.32e-79,0,1.02e-80,6,45,70,1,Converged,Plateau confirmed - cease queries after week 13
+6,F2,GP,RQ,EI,Xi,0.01,0.75,0,0.058,6,90,10,1,Plateau,Confirmed plateau at 0.75
+6,F3,GP,Matern,UCB,Beta,5.0,-0.078,0.002,0.00013,6,64,55,1,Slow,Very slow progress; accept as difficult function
+6,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.638,0.03,0.0024,6,60,40,1,SVM_Stable,Stable; maintaining benefit
+6,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,6,91,0,1,Locked,Firmly locked at peak
+6,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.65,0.03,0.0025,6,45,50,1,SVM_Stable,Stable; consistent refinement
+6,F7,GP,Matern+White,UCB,Beta,3.0,0.645,0.025,0.0049,6,85,30,1,Improving,Steady improvement; maintaining strategy
+6,F8,GP,Matern,UCB,Beta,1.5,5.8,1.3,0.446,6,74,60,1,Steady,Steady progress; 8D optimization slow but real
+7,F2,GP,RQ,EI,Xi,0.01,0.75,0,0.058,7,90,5,1,Plateau,Plateau confirmed
+7,F3,GP,Matern,UCB,Beta,5.0,-0.076,0.002,0.00011,7,65,50,1,Slow,Minimal progress; accept difficult nature
+7,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.608,0.03,0.0026,7,61,35,1,SVM_Stable,Stable; consistent refinement continues
+7,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,7,90,0,1,Locked,Peak maintained
+7,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.62,0.03,0.0027,7,46,45,1,SVM_Stable,Stable; continuing refinement
+7,F7,GP,Matern+White,UCB,Beta,3.0,0.668,0.023,0.00953,7,86,25,1,Improving,Continuing improvement; strategy working
+7,F8,GP,Matern,UCB,Beta,1.5,6.9,1.1,0.53,7,75,55,1,Steady,Steady progress; approaching 8D peak
+8,F2,GP,RQ,EI,Xi,0.01,0.75,0,0.058,8,90,3,1,Plateau,Confirmed plateau
+8,F3,GP,Matern,UCB,Beta,5.0,-0.074,0.002,0.00009,8,66,45,1,Slow,Minimal gain; function near ceiling
+8,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.578,0.03,0.0028,8,62,30,1,SVM_Stable,Stable refinement
+8,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,8,89,0,1,Locked,Peak maintained
+8,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.59,0.03,0.0029,8,47,40,1,SVM_Stable,Stable; consistent refinement
+8,F7,GP,Matern+White,UCB,Beta,3.0,0.69,0.022,0.00953,8,87,20,1,Plateau,Reaching plateau; strategy effective
+8,F8,NN+GP,Mixed,UCB,Beta,1.5,7.8,0.9,0.60,8,75,50,1,Ensemble,Added NN; ensemble beginning to help
+9,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.548,0.03,0.0031,9,63,25,1,SVM_Stable,Stable; consistent gain
+9,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,9,88,0,1,Locked,Peak maintained
+9,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.56,0.03,0.00315,9,48,35,1,SVM_Stable,Stable; marginal improvement
+9,F7,GP,Matern+White,UCB,Beta,3.0,0.69,0,0.00953,9,87,15,1,Plateau,Plateau confirmed at 0.69
+9,F8,NN+GP,Mixed,UCB,Beta,1.5,8.5,0.7,0.654,9,76,45,1,Ensemble,Ensemble helping; steady improvement
+10,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.518,0.03,0.00342,10,64,20,1,SVM_Stable,Stable refinement
+10,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,10,87,0,1,Locked,Peak maintained
+10,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.53,0.03,0.00333,10,49,30,1,SVM_Stable,Stable; marginal gain
+10,F8,NN+GP,Mixed,UCB,Beta,1.5,9.2,0.7,0.708,10,77,40,1,Ensemble,Ensemble showing steady progress
+11,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.488,0.03,0.00354,11,65,15,1,SVM_Stable,Stable refinement
+11,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,11,86,0,1,Locked,Peak maintained
+11,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.5,0.03,0.00345,11,50,25,1,SVM_Stable,Stable; marginal gain
+11,F8,NN+GP,Mixed,UCB,Beta,1.5,9.5,0.3,0.731,11,77,35,1,Ensemble,Ensemble plateauing; slower gains
+12,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-0.458,0.03,0.00366,12,66,10,1,SVM_Stable,Stable refinement
+12,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,12,85,0,1,Locked,Peak maintained
+12,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.47,0.03,0.00357,12,51,20,1,SVM_Stable,Stable; marginal gain
+12,F8,NN+GP,Mixed,UCB,Beta,1.5,9.7,0.2,0.746,12,78,30,1,Ensemble,Ensemble plateauing; minimal gain
+13,F4,SVM+GP,Matern+White,UCB,Beta,3.0,-3.59,0.03,0.276,13,68,5,1,Final,Final week - stable convergence
+13,F5,GP,RQ,EI,Xi,0.001,7367.39,0,2455.8,13,84,0,1,Final,Final week - peak maintained
+13,F6,SVM+GP,Matern+White,UCB,Beta,5.0,-0.41,0.03,0.0315,13,52,15,1,Final,Final week - stable convergence
+13,F8,NN+GP,Mixed,UCB,Beta,1.5,9.84,0.14,0.757,13,78,25,1,Final,Final week - best 8D performance achieved
