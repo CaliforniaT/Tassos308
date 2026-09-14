@@ -1,5 +1,5 @@
 week,function,peak_output_after_week,weekly_improvement,efficiency_score,convergence_speed_weeks,model_accuracy_percent,exploration_rate_percent,queries_made,status,technique,kernel,acquisition_function,parameter_name,parameter_value,key_insight
-13,F4,-3.59,0.03,0.276,13,68.0,5.0,1,Final,SVM+GP,Matern+White,UCB,Beta,3.0,Final week - stable convergence
+13,F4,-0.458,0.03,0.276,13,68.0,5.0,1,Final,SVM+GP,Matern+White,UCB,Beta,3.0,Final week - stable convergence
 13,F5,7367.39,0.0,2455.8,13,84.0,0.0,1,Final,GP,RQ,EI,Xi,0.001,Final week - peak maintained
 13,F6,-0.41,0.03,0.0315,13,52.0,15.0,1,Final,SVM+GP,Matern+White,UCB,Beta,5.0,Final week - stable convergence
 13,F8,9.84,0.14,0.757,13,78.0,25.0,1,Final,NN+GP,Mixed,UCB,Beta,1.5,Final week - best 8D performance achieved

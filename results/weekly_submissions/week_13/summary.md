@@ -25,7 +25,7 @@
 
 | Function | Technique | Acquisition | Parameter | Peak After Week | Weekly Improvement | Status |
 |----------|-----------|-------------|-----------|-----------------|--------------------|--------|
-| F4 | SVM+GP | UCB | Beta=3.0 | -3.59 | 0.03 | Final |
+| F4 | SVM+GP | UCB | Beta=3.0 | -0.458 | 0.03 | Final |
 | F5 | GP | EI | Xi=0.001 | 7367.39 | 0.0 | Final |
 | F6 | SVM+GP | UCB | Beta=5.0 | -0.41 | 0.03 | Final |
 | F8 | NN+GP | UCB | Beta=1.5 | 9.84 | 0.14 | Final |
