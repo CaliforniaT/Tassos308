@@ -5,10 +5,10 @@
 
 ## Overview
 - Functions Evaluated: 8
-- Total Queries Recorded: 62
+- Total Queries Recorded: 8
 - Best Peak This Week: 7367.39 (F5)
-- Total Weekly Improvement: 0.734
-- Average Model Accuracy: 63.88%
+- Total Weekly Improvement: 1.444
+- Average Model Accuracy: 68.75%
 
 ## Function Results
 
@@ -18,8 +18,8 @@
 | F2 | GP | EI Xi=0.01 | 0.75 | 0.054 | Plateau |
 | F3 | GP | UCB Beta=5.0 | -0.08 | 0.002 | Exploration |
 | F4 | SVM+GP | UCB Beta=3.0 | -0.668 | 0.03 | SVM_Stable |
-| F5 | GP | EI Xi=0.001=Xi | 7367.39 | 0 | Locked |
-| F6 | SVM+GP | UCB Beta=5.0=Beta | 5.0 | -0.68 | 1 |
+| F5 | GP | EI Xi=0.001 | 7367.39 | 0 | Locked |
+| F6 | SVM+GP | UCB Beta=5.0 | -0.68 | 0.03 | SVM_Stable |
 | F7 | GP | UCB Beta=3.0 | 0.62 | 0.028 | Improving |
 | F8 | GP | UCB Beta=1.5 | 4.5 | 1.3 | Exploration |
 
