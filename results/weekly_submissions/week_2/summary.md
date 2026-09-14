@@ -104,7 +104,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 ---
 
-## Hyperparameter Changes and Rationale
+## Hyperparameter Changes and Rationale for Week 3
 
 | Function | Change | Old | New | Rationale |
 |----------|--------|-----|-----|-----------|

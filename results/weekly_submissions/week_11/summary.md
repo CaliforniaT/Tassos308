@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer**: F5 (Chemical Yield) at 7367.39
+- **Best Performer**: F5 (Chemical Yield) at 7345.29
 - **Total Weekly Gain**: 0.361
 - **Average Prediction Error**: 22.38%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -104,7 +104,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 ---
 
-## Hyperparameter Changes and Rationale
+## Hyperparameter Changes and Rationale for Week 12
 
 | Function | Change | Old | New | Rationale |
 |----------|--------|-----|-----|-----------|
