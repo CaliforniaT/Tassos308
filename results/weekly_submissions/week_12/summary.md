@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 0.2605
 - **Average Prediction Error**: 21.12%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -47,7 +47,7 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ### Function 4 (4D - Warehouse Placement)
 
-- **Submission**: [0.601191, 0.565466, 0.532177, 0.437682]
+- **Submission**: [0.611713, 0.558576, 0.545069, 0.425313]
 - **Technique**: SVM+GP with Matern+White kernel and UCB (Beta=3.0)
 - **Prediction vs Actual**: -0.6 ± 0.0788 → -0.458 (31.00% error)
 - **Interpretation**: Week 12 improved the incumbent; cumulative improvement from week 1 is 0.314
@@ -63,7 +63,7 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ### Function 6 (5D - Recipe Optimization)
 
-- **Submission**: [0.304535, 0.746054, 0.459572, 0.616949, 0.812093]
+- **Submission**: [0.306986, 0.754766, 0.466340, 0.609664, 0.803570]
 - **Technique**: SVM+GP with Matern+White kernel and UCB (Beta=5.0)
 - **Prediction vs Actual**: -0.2726 ± 0.1067 → -0.47 (42.00% error)
 - **Interpretation**: Week 12 improved the incumbent; cumulative improvement from week 1 is 0.722
@@ -98,8 +98,8 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ## Convergence Status and Strategy Adjustments
 
-- **Converged or locked functions**: F1, F2, F4, F5, F6, F7
-- **Still actively searching**: F3, F8
+- **Converged or locked functions**: F1, F2, F5, F7
+- **Still actively searching**: F3, F4, F6, F8
 - **Allocation logic**: Query budget stays concentrated on functions with visible headroom, while plateaued functions are used mainly to validate that earlier peaks are real and repeatable.
 
 ---
@@ -111,9 +111,9 @@ Week 12 shows F5 as the clearest current opportunity, while F6 carries the large
 | F1 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence. |
 | F2 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence. |
 | F3 | Strategy mode | Refinement | Final | Operational mode changed from Refinement to Final based on the latest evidence. |
-| F4 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence. |
+| F4 | Strategy mode | Refinement | Final | Operational mode changed from Refinement to Final based on the latest evidence. |
 | F5 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence. |
-| F6 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence. |
+| F6 | Strategy mode | Refinement | Final | Operational mode changed from Refinement to Final based on the latest evidence. |
 | F7 | Strategy mode | Locked | Final | Operational mode changed from Locked to Final based on the latest evidence. |
 | F8 | Strategy mode | Ensemble | Final | Operational mode changed from Ensemble to Final based on the latest evidence. |
 

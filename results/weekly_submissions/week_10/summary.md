@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 0.761
 - **Average Prediction Error**: 23.62%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -47,7 +47,7 @@ Week 10 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ### Function 4 (4D - Warehouse Placement)
 
-- **Submission**: [0.567006, 0.543854, 0.513567, 0.431088]
+- **Submission**: [0.560874, 0.551546, 0.501349, 0.430110]
 - **Technique**: SVM+GP with Matern+White kernel and UCB (Beta=3.0)
 - **Prediction vs Actual**: -0.6889 ± 0.1036 → -0.518 (33.00% error)
 - **Interpretation**: Week 10 improved the incumbent; cumulative improvement from week 1 is 0.254
@@ -98,8 +98,8 @@ Week 10 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ## Convergence Status and Strategy Adjustments
 
-- **Converged or locked functions**: F1, F2, F4, F5, F7
-- **Still actively searching**: F3, F6, F8
+- **Converged or locked functions**: F1, F2, F5, F7
+- **Still actively searching**: F3, F4, F6, F8
 - **Allocation logic**: Query budget stays concentrated on functions with visible headroom, while plateaued functions are used mainly to validate that earlier peaks are real and repeatable.
 
 ---

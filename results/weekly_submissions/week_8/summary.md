@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 5
-- **Best Performer**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 0.984
 - **Average Prediction Error**: 26.50%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2

@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 0.762
 - **Average Prediction Error**: 25.00%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -109,7 +109,7 @@ Week 9 shows F5 as the clearest current opportunity, while F6 carries the larges
 | Function | Change | Old | New | Rationale |
 |----------|--------|-----|-----|-----------|
 | F3 | Strategy mode | Slow | Refinement | Operational mode changed from Slow to Refinement based on the latest evidence. |
-| F4 | Strategy mode | Balanced | Locked | Operational mode changed from Balanced to Locked based on the latest evidence. |
+| F4 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence. |
 | F6 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence. |
 
 ---

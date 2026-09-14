@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer**: F5 (Chemical Yield) at 7367.39
+- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 0.361
 - **Average Prediction Error**: 22.38%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -47,7 +47,7 @@ Week 11 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ### Function 4 (4D - Warehouse Placement)
 
-- **Submission**: [0.584833, 0.556393, 0.523242, 0.435510]
+- **Submission**: [0.589234, 0.561994, 0.524691, 0.432212]
 - **Technique**: SVM+GP with Matern+White kernel and UCB (Beta=3.0)
 - **Prediction vs Actual**: -0.6442 ± 0.0878 → -0.488 (32.00% error)
 - **Interpretation**: Week 11 improved the incumbent; cumulative improvement from week 1 is 0.284
@@ -98,17 +98,15 @@ Week 11 shows F5 as the clearest current opportunity, while F6 carries the large
 
 ## Convergence Status and Strategy Adjustments
 
-- **Converged or locked functions**: F1, F2, F4, F5, F7
-- **Still actively searching**: F3, F6, F8
+- **Converged or locked functions**: F1, F2, F5, F7
+- **Still actively searching**: F3, F4, F6, F8
 - **Allocation logic**: Query budget stays concentrated on functions with visible headroom, while plateaued functions are used mainly to validate that earlier peaks are real and repeatable.
 
 ---
 
 ## Hyperparameter Changes and Rationale for Week 12
 
-| Function | Change | Old | New | Rationale |
-|----------|--------|-----|-----|-----------|
-| F6 | Strategy mode | Refinement | Locked | Operational mode changed from Refinement to Locked based on the latest evidence. |
+No hyperparameter changes are planned for week 12. Current settings remain in place because the incumbent strategies are stable and the remaining budget is better spent on confirmation than reconfiguration.
 
 ---
 
