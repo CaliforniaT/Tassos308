@@ -106,13 +106,13 @@ Week 2 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 ## Hyperparameter Changes and Rationale for Week 3
 
-| Function | Change | Old | New | Rationale |
-|----------|--------|-----|-----|-----------|
-| F1 | Strategy mode | Plateau | Converged | Operational mode changed from Plateau to Converged based on the latest evidence. |
-| F2 | Strategy mode | Switching | Exploitation | Operational mode changed from Switching to Exploitation based on the latest evidence. |
-| F4 | Strategy mode | Exploration | SVM_Prep | Operational mode changed from Exploration to SVM_Prep based on the latest evidence. |
-| F5 | Xi | Xi=0.01 | Xi=0.001 | Lower xi tightened EI around the current incumbent to prioritize near-term gains. |
-| F8 | Strategy mode | Recovery | Exploration | Operational mode changed from Recovery to Exploration based on the latest evidence. |
+Function | Change | Old | New | Rationale
+-------- | ------ | --- | --- | ---------
+F1 | Strategy mode | Plateau | Converged | Operational mode changed from Plateau to Converged based on the latest evidence.
+F2 | Strategy mode | Switching | Exploitation | Operational mode changed from Switching to Exploitation based on the latest evidence.
+F4 | Strategy mode | Exploration | SVM_Prep | Operational mode changed from Exploration to SVM_Prep based on the latest evidence.
+F5 | Xi | Xi=0.01 | Xi=0.001 | Lower xi tightened EI around the current incumbent to prioritize near-term gains.
+F8 | Strategy mode | Recovery | Exploration | Operational mode changed from Recovery to Exploration based on the latest evidence.
 
 ---
 

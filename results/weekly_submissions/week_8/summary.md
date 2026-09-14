@@ -106,9 +106,9 @@ Week 8 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 ## Hyperparameter Changes and Rationale for Week 9
 
-| Function | Change | Old | New | Rationale |
-|----------|--------|-----|-----|-----------|
-| F7 | Strategy mode | Plateau | Locked | Operational mode changed from Plateau to Locked based on the latest evidence. |
+Function | Change | Old | New | Rationale
+-------- | ------ | --- | --- | ---------
+F7 | Strategy mode | Plateau | Locked | Operational mode changed from Plateau to Locked based on the latest evidence.
 
 ---
 

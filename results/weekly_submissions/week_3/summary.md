@@ -106,11 +106,11 @@ Week 3 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 ## Hyperparameter Changes and Rationale for Week 4
 
-| Function | Change | Old | New | Rationale |
-|----------|--------|-----|-----|-----------|
-| F4 | Technique | GP + Matern+White | SVM+GP + Matern+White | Shifted to SVM+GP to better match the observed landscape. |
-| F5 | Strategy mode | Peak | Plateau | Operational mode changed from Peak to Plateau based on the latest evidence. |
-| F6 | Technique | GP + Matern+White | SVM+GP + Matern+White | Shifted to SVM+GP to better match the observed landscape. |
+Function | Change | Old | New | Rationale
+-------- | ------ | --- | --- | ---------
+F4 | Technique | GP + Matern+White | SVM+GP + Matern+White | Shifted to SVM+GP to better match the observed landscape.
+F5 | Strategy mode | Peak | Plateau | Operational mode changed from Peak to Plateau based on the latest evidence.
+F6 | Technique | GP + Matern+White | SVM+GP + Matern+White | Shifted to SVM+GP to better match the observed landscape.
 
 ---
 

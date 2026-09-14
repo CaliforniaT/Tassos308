@@ -106,11 +106,11 @@ Week 5 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 ## Hyperparameter Changes and Rationale for Week 6
 
-| Function | Change | Old | New | Rationale |
-|----------|--------|-----|-----|-----------|
-| F2 | Strategy mode | Plateau | Locked | Operational mode changed from Plateau to Locked based on the latest evidence. |
-| F3 | Strategy mode | Exploration | Slow | Operational mode changed from Exploration to Slow based on the latest evidence. |
-| F8 | Strategy mode | Exploration | Steady | Operational mode changed from Exploration to Steady based on the latest evidence. |
+Function | Change | Old | New | Rationale
+-------- | ------ | --- | --- | ---------
+F2 | Strategy mode | Plateau | Locked | Operational mode changed from Plateau to Locked based on the latest evidence.
+F3 | Strategy mode | Exploration | Slow | Operational mode changed from Exploration to Slow based on the latest evidence.
+F8 | Strategy mode | Exploration | Steady | Operational mode changed from Exploration to Steady based on the latest evidence.
 
 ---
 

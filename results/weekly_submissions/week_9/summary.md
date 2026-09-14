@@ -106,11 +106,11 @@ Week 9 shows F5 as the clearest current opportunity, while F6 carries the larges
 
 ## Hyperparameter Changes and Rationale for Week 10
 
-| Function | Change | Old | New | Rationale |
-|----------|--------|-----|-----|-----------|
-| F3 | Strategy mode | Slow | Refinement | Operational mode changed from Slow to Refinement based on the latest evidence. |
-| F4 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence. |
-| F6 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence. |
+Function | Change | Old | New | Rationale
+-------- | ------ | --- | --- | ---------
+F3 | Strategy mode | Slow | Refinement | Operational mode changed from Slow to Refinement based on the latest evidence.
+F4 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence.
+F6 | Strategy mode | Balanced | Refinement | Operational mode changed from Balanced to Refinement based on the latest evidence.
 
 ---
 
