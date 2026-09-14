@@ -1,0 +1,8 @@
+Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Key_Insight
+7,F2,0.75,0,0.058,7,90,5,Plateau confirmed
+7,F3,-0.076,0.002,0.00011,7,65,50,Minimal progress; accept difficult nature
+7,F4,-0.608,0.03,0.0026,7,61,35,Stable; consistent refinement continues
+7,F5,7367.39,0,2455.8,7,90,0,Peak maintained
+7,F6,-0.62,0.03,0.0027,7,46,45,Stable; continuing refinement
+7,F7,0.668,0.023,0.00953,7,86,25,Continuing improvement; strategy working
+7,F8,6.9,1.1,0.53,7,75,55,Steady progress; approaching 8D peak

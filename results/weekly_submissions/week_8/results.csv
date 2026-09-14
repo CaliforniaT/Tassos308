@@ -1,0 +1,8 @@
+Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Key_Insight
+8,F2,0.75,0,0.058,8,90,3,Confirmed plateau
+8,F3,-0.074,0.002,0.00009,8,66,45,Minimal gain; function near ceiling
+8,F4,-0.578,0.03,0.0028,8,62,30,Stable refinement
+8,F5,7367.39,0,2455.8,8,89,0,Peak maintained
+8,F6,-0.59,0.03,0.0029,8,47,40,Stable; consistent refinement
+8,F7,0.69,0.022,0.00953,8,87,20,Reaching plateau; strategy effective
+8,F8,7.8,0.9,0.60,8,75,50,Added NN; ensemble beginning to help

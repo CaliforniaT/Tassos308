@@ -1,0 +1,9 @@
+Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Key_Insight
+4,F1,1.32e-79,0,1.02e-80,4,47,80,No improvement - function ceiling confirmed
+4,F2,0.696,0.054,0.053,4,89,20,Continuing EI; steady refinement; +8% weekly
+4,F3,-0.082,0.002,0.0002,4,61,65,Very slow progress; difficult function
+4,F4,-0.698,0.03,0.002,4,58,50,SVM filtering active; +1.2% improvement vs. week 3
+4,F5,7367.39,0,2455.8,4,93,2,Converged at peak; maintain current strategy
+4,F6,-0.71,0.042,0.0032,4,42,60,SVM filtering active; +0.9% net benefit vs. pure GP
+4,F7,0.592,0.031,0.0045,4,83,40,Steady improvement; consistent strategy
+4,F8,3.2,1.2,0.246,4,70,70,Improving; high-D still challenging

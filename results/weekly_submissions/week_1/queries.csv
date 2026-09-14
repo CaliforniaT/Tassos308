@@ -1,0 +1,9 @@
+Week,Function,Technique,Kernel,Acquisition_Function,Parameter_Name,Parameter_Value,Queries_Made,Status
+1,F1,GP,Matern+White,UCB,Beta,3.0,1,Exploration
+1,F2,GP,RQ,UCB,Beta,3.0,1,Exploration
+1,F3,GP,Matern,UCB,Beta,3.0,1,Exploration
+1,F4,GP,Matern+White,UCB,Beta,3.0,1,Exploration
+1,F5,GP,RQ,UCB,Beta,1.5,1,Exploration
+1,F6,GP,Matern+White,UCB,Beta,3.0,1,Exploration
+1,F7,GP,Matern+White,UCB,Beta,1.0,1,Exploration
+1,F8,Ensemble,Mixed,UCB,Beta,1.5,1,Exploration

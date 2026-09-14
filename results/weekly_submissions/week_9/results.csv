@@ -1,0 +1,6 @@
+Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Key_Insight
+9,F4,-0.548,0.03,0.0031,9,63,25,Stable; consistent gain
+9,F5,7367.39,0,2455.8,9,88,0,Peak maintained
+9,F6,-0.56,0.03,0.00315,9,48,35,Stable; marginal improvement
+9,F7,0.69,0,0.00953,9,87,15,Plateau confirmed at 0.69
+9,F8,8.5,0.7,0.654,9,76,45,Ensemble helping; steady improvement
