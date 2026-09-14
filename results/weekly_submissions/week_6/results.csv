@@ -1,5 +1,5 @@
 Week,Function,Peak_Output,Weekly_Improvement,Efficiency_Score,Convergence_Speed_Weeks,Model_Accuracy_Percent,Exploration_Rate_Percent,Key_Insight
-6,F1,1.32e-79,0,1.02e-80,6,45,70,Plateau confirmed - cease queries after week 13
+6,F1,1.32e-79,0,1.02e-80,6,45,70,Plateau confirmed by week 6; no further meaningful improvement
 6,F2,0.75,0,0.058,6,90,10,Confirmed plateau at 0.75
 6,F3,-0.078,0.002,0.00013,6,64,55,Very slow progress; accept as difficult function
 6,F4,-0.638,0.03,0.0024,6,60,40,Stable; maintaining benefit

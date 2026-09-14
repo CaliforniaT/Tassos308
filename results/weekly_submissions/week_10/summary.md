@@ -7,7 +7,7 @@
 - Functions Evaluated: 4
 - Total Queries Recorded: 4
 - Best Peak This Week: 7367.39 (F5)
-- Total Weekly Improvement: 0.76
+- Total Weekly Improvement: 0.760
 - Average Model Accuracy: 69.25%
 
 ## Function Results
