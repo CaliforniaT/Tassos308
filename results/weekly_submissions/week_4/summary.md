@@ -15,7 +15,7 @@
 | Function | Technique | Acquisition | Peak Output | Weekly Improvement | Status |
 |---|---|---|---:|---:|---|
 | F1 | GP | UCB Beta=5.0 | 1.32e-79 | 0 | Converged |
-| F2 | GP | EI Xi=0.01 | 0.696 | 0.054 | Exploitation |
+| F2 | GP | EI Xi=0.01 | 0.696 | 0.054 | Plateau |
 | F3 | GP | UCB Beta=5.0 | -0.082 | 0.002 | Exploration |
 | F4 | SVM+GP | UCB Beta=3.0 | -0.698 | 0.03 | SVM_Stable |
 | F5 | GP | EI Xi=0.001 | 7367.39 | 0 | Locked |

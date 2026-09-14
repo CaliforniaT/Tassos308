@@ -1,6 +1,6 @@
 Week,Function,Technique,Kernel,Acquisition_Function,Parameter_Name,Parameter_Value,Queries_Made,Status
 4,F1,GP,Matern+White,UCB,Beta,5.0,1,Converged
-4,F2,GP,RQ,EI,Xi,0.01,1,Exploitation
+4,F2,GP,RQ,EI,Xi,0.01,1,Plateau
 4,F3,GP,Matern,UCB,Beta,5.0,1,Exploration
 4,F4,SVM+GP,Matern+White,UCB,Beta,3.0,1,SVM_Stable
 4,F5,GP,RQ,EI,Xi,0.001,1,Locked
