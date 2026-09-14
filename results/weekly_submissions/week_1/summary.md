@@ -10,12 +10,12 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 0
-- **Best Performer (highest actual output this week)**: F5 (Chemical Yield) at 2596.24
+- **Highest Observed Output This Week**: F5 (Chemical Yield) at 2596.24
 - **Total Weekly Gain**: 0
 - **Average Prediction Error**: 55.25%
 - **Technique Mix**: GP×7, NN+GP×1
 
-Week 1 shows F5 as the clearest current opportunity, while F8 carries the largest modeling uncertainty and therefore demands the most cautious follow-up.
+Week 1 establishes baseline behavior across all eight functions; the main takeaway is that response quality and model confidence vary widely across the portfolio.
 
 ---
 
@@ -109,10 +109,12 @@ Week 1 shows F5 as the clearest current opportunity, while F8 carries the larges
 Function | Change | Old | New | Rationale
 -------- | ------ | --- | --- | ---------
 F1 | Beta | Beta=3.0 | Beta=5.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
+F1 | Alpha | 1e-10 | 1e-3 | Week 2 plan: increase noise tolerance to reflect the flat, highly uncertain baseline response.
 F2 | Acquisition / parameter | UCB Beta=3.0 | EI Xi=0.01 | Week 2 plan: acquisition changed from UCB to EI to better match the latest search objective.
 F3 | Beta | Beta=3.0 | Beta=5.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
 F5 | Acquisition / parameter | UCB Beta=1.5 | EI Xi=0.01 | Week 2 plan: acquisition changed from UCB to EI to better match the latest search objective.
 F6 | Beta | Beta=3.0 | Beta=5.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
+F6 | Alpha | 1e-10 | 1e-5 | Week 2 plan: raise the noise term because the first recipe observation was highly unstable.
 F7 | Beta | Beta=1.0 | Beta=3.0 | Week 2 plan: raised beta to search more broadly after the latest evidence showed the current model was still too uncertain.
 F8 | Technique | NN+GP + Mixed | GP + Matern | Week 2 plan: shifted to GP to better match the observed landscape.
 
