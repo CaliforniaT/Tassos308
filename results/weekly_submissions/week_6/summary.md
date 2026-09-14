@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 5
-- **Best Performer**: F5 (Chemical Yield) at 7345.29
+- **Best Performer**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 1.387
 - **Average Prediction Error**: 29.62%
 - **Technique Mix**: GP×6, SVM+GP×2
@@ -57,7 +57,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 - **Submission**: [0.348422, 0.828079, 0.794610, 0.876158]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 6831.12 ± 1057.72 → 7345.29 (7.00% error)
+- **Prediction vs Actual**: 6851.67 ± 1060.90 → 7367.39 (7.00% error)
 - **Interpretation**: Week 6 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: No alternative candidate clears the incumbent. A week-2 switch into ei pays off immediately and the week-3 peak becomes the global anchor for the rest of the project.
 

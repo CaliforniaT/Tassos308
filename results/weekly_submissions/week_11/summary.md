@@ -10,7 +10,7 @@
 
 - **Total Queries Submitted**: 8 (1 per function)
 - **New Peak Discoveries**: 4
-- **Best Performer**: F5 (Chemical Yield) at 7345.29
+- **Best Performer**: F5 (Chemical Yield) at 7367.39
 - **Total Weekly Gain**: 0.361
 - **Average Prediction Error**: 22.38%
 - **Technique Mix**: GP×5, NN+GP×1, SVM+GP×2
@@ -57,7 +57,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 - **Submission**: [0.349666, 0.819743, 0.792373, 0.872022]
 - **Technique**: GP with RQ kernel and EI (Xi=0.001)
-- **Prediction vs Actual**: 7051.48 ± 1028.34 → 7345.29 (4.00% error)
+- **Prediction vs Actual**: 7072.69 ± 1031.43 → 7367.39 (4.00% error)
 - **Interpretation**: Week 11 validated the incumbent without improving it; cumulative improvement from week 1 is 4771.15
 - **Insight**: The best F5 settings remain untouched. A week-2 switch into ei pays off immediately and the week-3 peak becomes the global anchor for the rest of the project.
 
@@ -89,7 +89,7 @@ This week continues the project-wide trajectory where low-dimensional functions 
 
 ## Cross-Function Patterns and Technique Effectiveness
 
-- **Phase pattern**: Weeks 1-3 emphasize exploration, weeks 4-7 use a more balanced policy, and weeks 8-13 increasingly lock onto incumbents. Week 11 fits that pattern through a exploitation-oriented allocation.
+- **Phase pattern**: Weeks 1-3 emphasize exploration, weeks 4-7 use a more balanced policy, and weeks 8-13 increasingly lock onto incumbents. Week 11 fits that pattern through an exploitation-oriented allocation.
 - **Technique effectiveness**: GP-EI remains the strongest exploitation tool whenever a credible incumbent exists (especially F5, then F2). GP-UCB is still the best general-purpose explorer, and SVM+GP produces slower but steadier gains on F4/F6 once enough data exists to filter candidates.
 - **Dimensionality effect**: 2D problems calibrate quickly, 4D-6D problems benefit from hybrid filtering, and the 8D search still pays a high uncertainty tax even after model improvements.
 - **Model quality trend**: Prediction intervals shrink over time, with the sharpest improvements on F2, F5, and F7 after exploitation begins.
