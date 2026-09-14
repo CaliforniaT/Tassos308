@@ -17,10 +17,10 @@
 | F1 | GP | UCB Beta=5.0 | 1.32e-79 | 0 | Converged |
 | F2 | GP | EI Xi=0.01 | 0.696 | 0.054 | Exploitation |
 | F3 | GP | UCB Beta=5.0 | -0.082 | 0.002 | Exploration |
-| F4 | SVM+GP | UCB Beta=3.0 | -0.698 | 0.03 | SVM_Active |
-| F5 | GP | EI Xi=0.001 | 7367.39 | 0 | Plateau |
-| F6 | SVM+GP | UCB Beta=5.0 | -0.71 | 0.042 | SVM_Active |
-| F7 | GP | UCB Beta=3.0 | 0.592 | 0.031 | Balanced |
+| F4 | SVM+GP | UCB Beta=3.0 | -0.698 | 0.03 | SVM_Stable |
+| F5 | GP | EI Xi=0.001 | 7367.39 | 0 | Locked |
+| F6 | SVM+GP | UCB Beta=5.0 | -0.71 | 0.042 | SVM_Stable |
+| F7 | GP | UCB Beta=3.0 | 0.592 | 0.031 | Improving |
 | F8 | GP | UCB Beta=1.5 | 3.2 | 1.2 | Exploration |
 
 ## Notes
